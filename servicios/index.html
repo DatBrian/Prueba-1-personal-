@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../js/apps.css">
+
+    <title>Servicios</title>
+</head>
+
+<body>
+    <section class="container1">
+        <img id="logo" src="../images/logoWhite.png" alt="">
+        <nav>
+            <a class="alink" href="../index.html">Inicio</a>
+            <a class="alink" href="index.html">Servicios</a>
+            <a class="alink" href="../soporte/index.html">Soporte</a>
+        </nav>
+    </section>
+
+    <section class="first-message">
+        <h1>Servicios</h1>
+        <a href="../tiendaComida/index.html">Cafetería virtual</a>
+
+        <div id="contenedor-tarjetas">
+            <div class="tarjetas">
+                <p>Hunters</p>
+                <img src="../images/hunters.png" alt="">
+                <button class="hunters">Ver datos</button>
+            </div>
+            <div class="tarjetas">
+                <p>Cafetería Hunters</p>
+                <img src="../images/campuslands.jpg" alt="">
+                <button class="cafeteria">Ver datos</button>
+            </div>
+            <div class=" tarjetas">
+                <p>8vo piso</p>
+                <img src="../images/cafeteria 8vo.jpg" alt="">
+                <button class="piso">Ver datos</button>
+            </div>
+            <div class="tarjetas">
+                <p>Baños</p>
+                <img src="../images/aseo.png" alt="">
+                <button class="baños">Ver datos</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal modalHunters">
+        <div class="modal-contenido">
+            <h2>Servicios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Detalles</td>
+                        <td>Disponibilidad</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hunters</td>
+                        <td>Espacio destinado al descanso y la recreación de nuestros campers y coworkers.</td>
+                        <td>Sujeto a horario</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="close closeHunters">cerrar</button>
+        </div>
+    </div>
+
+    <div class="modal modalCafeteria">
+        <div class="modal-contenido">
+            <h3>Servicios</h3>
+            <table>
+                <thead>
+                    <td>Nombre</td>
+                    <td>Detalles</td>
+                    <td>Disponibilidad</td>
+                </thead>
+                <tbody>
+                    <td>Cafetería Hunters</td>
+                    <td>Cubículo ubicado en el espacio de hunters pensado para ofrecer servicios de cafetería</td>
+                    <td>Sujeto a horario</td>
+                </tbody>
+            </table>
+            <button class="close closeCafeteria">cerrar</button>
+        </div>
+    </div>
+
+    <div class="modal modal8piso">
+        <div class="modal-contenido">
+            <h3>Servicios</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Detalles</td>
+                        <td>Disponibilidad</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8vo</td>
+                        <td>Una zona ubicada en el octavo piso que cuenta con múltiples servicios de cafetería</td>
+                        <td>sujeto a horario</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="close closePiso">cerrar</button>
+        </div>
+    </div>
+
+    <div class="modal modalBaños">
+        <div class="modal-contenido">
+            <h3>Servicios</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Detalles</td>
+                        <td>Disponibilidad</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Baños</td>
+                        <td>Espacio dedicado al aseo y cuidado de los campers y coworkers.</td>
+                        <td>uso libre</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="close closeBaños">cerrar</button>
+        </div>
+    </div>
+
+    <script src="../js/db.js"></script>
+    <script src="../js/dinamic.js"></script>
+
+</body>

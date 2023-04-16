@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
+    " rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="container1">
+        <img id="logo" src="../images/logoWhite.png" alt="">
+        <nav>
+            <a class=" alink" href="../index.html">Inicio</a>
+            <a class="alink" href="../servicios/index.html">Servicios</a>
+            <a class="alink" href="../soporte/index.html">Soporte</a>
+            <div>
+                <button class="carrito">
+                    <img src="../images/cart-regular-24.png" alt="">
+                </button>
+                <h2 class="totalItems">0</h2>
+            </div>
+        </nav>
+    </section>
+
+    <section class="first-message">
+        <h1>Cafetería Virtual</h1>
+        <p>Sección compra</p>
+        <h3>Catálogo </h3>
+    </section>
+    
+    <section class="products">
+        <div class="carts">
+            <img src="../images/papasmargarita.jpg" alt="">
+            <p>Papas</p>
+            <p>2000$</p>
+            <button class="add">Añadir al carrito</button>
+        </div>
+        <div class="carts">
+            <img src="../images/Pastel-de-Pollo7.jpg" alt="">
+            <p>Pasteles</p>
+            <p>2300$</p>
+            <button class="add">Añadir al carrito</button>
+        </div>
+        <div class="carts">
+            <img src="../images/Color-del-cafe-filtrado-y-su-parecido-con-el-color-de-un-vino-tinto.-scaled.jpg" alt="">
+            <p>Café</p>
+            <p>800$</p>
+            <button class="add">Añadir al carrito</button>
+        </div>
+    </section>
+    <section class="cart-products">
+        <div style="display: flex; justify-content: flex-end;">
+            <button class="close-btn">X</button>
+        </div>
+        <h3>Mi carrito</h3>
+        <div class="item-container">
+        </div>
+        <div class="total">
+            <h2 class="total">Total: $0</h2>
+        </div>
+    </section>
+
+
+    <script src="../js/tienda.js"></script>
+</body>
+
+</html>
